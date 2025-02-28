@@ -1,0 +1,30 @@
+<mat-toolbar color="primary dark_mode" class="toolbar">
+  <span>User Management</span>
+  <div class="spacer"></div>
+  <a mat-button routerLink="/users">Home</a>
+  <a mat-button routerLink="/add">About</a>
+  <a mat-button routerLink="/">Contact</a>
+  <a mat-button routerLink="/">Login</a>
+  </mat-toolbar>
+<!-- ngNonBindable it is used to display the text as it is without taking it from component -->
+
+<!-- this is the exmaple of interpolation -->
+<!-- <p style.color= {{color}}>interpolation FirstName : {{firstname.toUpperCase()}} </p> -->
+
+<!-- this is the exmaple of property binding -->
+<!-- <p style.color= {{color}} [innerText]="'property binding FirstName : ' + firstname.toUpperCase()"></p>
+
+<button id="btn" (click)="changevar()">change</button> -->
+
+<!-- event binding -->
+<!-- Template -->
+
+
+<!-- ngmodel without case : we need to manually update the username value in component -->
+<!-- <input [value]="userName" (input)="updateUserName($event)"> -->
+<!-- <p>Your Name: {{ userName }}</p> -->
+
+
+<input [(ngModel)]="userName" [style]="margin">
+<p>Your Name: {{ userName }}</p>
+<button (click)="clearName()">Clear</button>

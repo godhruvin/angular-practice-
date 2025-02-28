@@ -1,0 +1,23 @@
+<!-- <main style="margin-top: 10rem;text-align: center;">
+
+    <h2>Count : {{count}} </h2>
+    <button mat-flat-button style=" margin-right:20px;" (click)="modifyCounter('increment')">Increment</button>
+    <button mat-flat-button style=" margin-right:20px;" (click)="modifyCounter('decrement')">Decrement</button>
+    <button mat-flat-button style=" margin-right:20px;" (click)="modifyCounter('reset')">Reset</button>
+</main> -->
+
+<main style="margin-top: 10rem;text-align: center;">
+
+    <h2>Count : {{count}} </h2>
+    <button mat-flat-button style=" margin-right:20px;" (click) = "modifycounter()">Increment</button>
+    <!-- <button mat-flat-button style=" margin-right:20px;" (click) = "">Decrement</button>
+    <button mat-flat-button style=" margin-right:20px;" (click) = "">Reset</button> -->
+</main>
+
+<tr *ngFor="let customer of customers">
+    <td>{{ customer.rollNo }}</td>
+    <td>{{ customer.name }}</td>
+    <td>{{ customer.type }}</td>
+</tr>
+
+

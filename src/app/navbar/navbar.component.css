@@ -1,0 +1,44 @@
+/* .toolbar {
+  display: flex;
+  gap: 2rem;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 25px 25px;
+  align-items: center;
+  padding: 22px;
+}
+.spacer {
+  flex: 1;
+}
+.light-icon{
+  display: none;
+  
+}
+body.dark-mode .toolbar {
+  background-color: #333 !important;
+  color: white !important;
+}
+.light-icon {
+  display: none;
+}
+
+body.dark-mode .light-icon {
+  display: inline;
+}
+
+body.dark-mode .dark-icon {
+  display: none;
+} */
+
+
+.spacer{
+  flex: 1;
+}
+.toolbar {
+  display: flex;
+  gap: 2rem;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 25px 25px;
+  align-items: center;
+  padding: 22px;
+}
+
